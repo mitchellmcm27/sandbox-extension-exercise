@@ -1,4 +1,4 @@
-FROM underworldcode/underworld2
+FROM underworldcode/underworld2:development
 
 # Make sure the contents of our repo are in ${HOME}
 ARG NB_UID=1000
