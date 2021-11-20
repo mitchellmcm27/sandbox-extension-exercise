@@ -38,3 +38,6 @@ Run the code and inspect the output.
 
 Open `model-run-1` in an interactive window to get started: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
 
+## Further reading
+
+For an in-depth discussion of these types of models and a comparison to actual sandbox experiments, see the Buiter et al. (2006) paper.
