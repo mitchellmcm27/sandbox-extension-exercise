@@ -19,7 +19,7 @@ https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg
 
 Using the link above, sketch what you think will happen after a few centimeters of extension has occurred.
 Your sketch can include things like faults, folds, layer contacts, and the resulting topography. 
-Use a color other than black to distinguish it from the initial layer setup.
+Use colors other than black to distinguish your prediction from the initial layer setup.
 
 Use the export button ![Export button](images/export.PNG) in the upper-left corner of the screen to get a link to your sketch. Paste the link in chat.
 
