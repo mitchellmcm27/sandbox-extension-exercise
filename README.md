@@ -19,7 +19,7 @@ Using the link above, sketch what you think will happen after a few centimeters 
 Your sketch can include things like faults, folds, layer contacts, and the resulting topography. 
 Use a color other than black to distinguish it from the initial layer setup.
 
-Use the export button ![Export button](images/export) to share a link to your sketch. Paste the link in chat.
+Use the export button ![Export button](images/export.PNG) to share a link to your sketch. Paste the link in chat.
 
 ## Run the model
 
