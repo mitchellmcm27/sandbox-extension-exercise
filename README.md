@@ -1,4 +1,4 @@
-# Sandbox extension model
+# Modelling exercise: Sandbox extension
 
 We will explore a numerical model of horizontal extension.
 Instead of modelling a portion of Earth, this model is specifically set up to simulate a 20 cm box filled with layers of sand.
