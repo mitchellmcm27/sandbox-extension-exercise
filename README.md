@@ -13,7 +13,7 @@ Click the link below to view an illustration of the model setup.
 The 2-D sandbox is bounded on the left by a fixed wall.
 The wall on the right is pulled to the rate at a consant rate, effectively lengthening the box.
 A silicone pad at the bottom of the box transfers stretching into the overlying layers of sand.
-The sand is what we're interested in, because we're assuming that something about how sand behaves in the sandbox is analagous to how rocks behave at depth.
+The sand is what we're interested in, because we're assuming that something about how sand behaves in the sandbox is analagous to how rocks behave in the Earth.
 
 https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg
 
