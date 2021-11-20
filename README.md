@@ -40,4 +40,4 @@ Open `model-run-1` in an interactive window to get started: [![Binder](https://m
 
 ## Further reading
 
-For an in-depth discussion of these types of models and a comparison to actual sandbox experiments, see the Buiter et al. (2006) paper.
+For an in-depth discussion of these types of models and a comparison to actual sandbox experiments, see the [Buiter et al. (2006) paper](Buiter-2006.pdf).
