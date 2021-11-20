@@ -15,7 +15,7 @@ The wall on the right is pulled to the rate at a consant rate, effectively lengt
 A silicone pad at the bottom of the box transfers stretching into the overlying layers of sand.
 The sand is what we're interested in, because we're assuming that something about how sand behaves in the sandbox is analagous to how rocks behave in the Earth.
 
-https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg
+[https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg](https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg)
 
 Using the link above, sketch what you think will happen after a few centimeters of extension has occurred.
 Your sketch can include things like faults, folds, layer contacts, and the resulting topography. 
