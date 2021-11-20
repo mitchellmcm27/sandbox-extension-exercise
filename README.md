@@ -5,7 +5,9 @@ Instead of modelling a portion of Earth, this model is specifically set up to si
 This particular problem is commonly used to test geodynamic model codes, because physical sandbox experiments are relatively common.
 Theoretically, models should be able to reproduce the outcomes of these physical sandbox experiments, but as we'll see, many complications usually prevent the models from doing so.
 
-## Model setup
+## Instructions
+
+### 1. Investigate model setup
 
 Click the link below to view an illustration of the model setup.
 The 2-D sandbox is bounded on the left by a fixed wall.
@@ -21,11 +23,18 @@ Use a color other than black to distinguish it from the initial layer setup.
 
 Use the export button ![Export button](images/export.PNG) in the upper-left corner of the screen to get a link to your sketch. Paste the link in chat.
 
-## Run the model
+### 2. Follow along in the `model-run-1` notebook
 
 Click on the button below.
 We will look at outputs from various numerical codes that have implemented this model.
-Then we will run it ourselves and compare all the results.
-Finally, we'll change some of the parameters of our model in a controlled way and investigate what happens.
+We will also see the output from runing the model in Underworld 2.
 
-Open `model-run-1` in an interactive window: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
+### 3. Edit and run the model again in the `model-run-2` notebook
+
+Finally, we'll change some of the parameters of our model in a controlled way and investigate what happens.
+Within JupyterLab, open the `model-run-2`notebook and read the intro.
+Make changes to the code blocks depending on your goal.
+Run the code and inspect the output.
+
+Open `model-run-1` in an interactive window to get started: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
+
