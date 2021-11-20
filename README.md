@@ -23,9 +23,9 @@ Use the export button ![Export button](images/export.PNG) in the upper-left corn
 
 ## Run the model
 
-Open the link below.
+Click on the button below.
 We will look at outputs from various numerical codes that have implemented this model.
 Then we will run it ourselves and compare all the results.
 Finally, we'll change some of the parameters of our model in a controlled way and investigate what happens.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
+Open `model-run-1` in an interactive window: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
