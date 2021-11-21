@@ -51,7 +51,7 @@ We assigned two processes to the "sand1" and "sand2" materials to control how th
 
 
 
-At the end of the day, we are really just modelling a sandbox, not the Earth. It's a model of a model. What could you change in order to make this more like a model of a continental rift, and less like a sandbox?
+At the end of the day, we are really just modelling a sandbox, not the Earth. It's a model of a model. What could you change in order to make this more like a model of a continental rift, and less like a sandbox? Imagine scaling the model so that it's 200 km long with 35 km of crust (vs 20 cm long with 3.5 cm of sand). In very general terms, what are some other changes you would make?
 
 
 
