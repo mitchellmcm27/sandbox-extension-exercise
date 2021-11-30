@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: 
+      image: pandoc/latex:2.16.1
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          tlmgr install cleveref siunitx
+      - run: |
+          pandoc --standalone --output=worksheet.docx README.md -F pandoc-crossref --citeproc
+      - uses: actions/upload-artifact@master
+        with:
+          name: worksheet
+          path: worksheet.docx
