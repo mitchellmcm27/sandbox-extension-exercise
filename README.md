@@ -46,7 +46,7 @@ After we step through the code, answer the questions below.
 <br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/sandbox-extension-exercise/main?labpath=model-run-1.ipynb)
 
-Or use this link (https://mybinder.org/v2/gh/mitchellmcm27/sandbox-extension-exercise/main?labpath=model-run-1.ipynb)[https://mybinder.org/v2/gh/mitchellmcm27/sandbox-extension-exercise/main?labpath=model-run-1.ipynb]
+Or use this link [https://mybinder.org/v2/gh/mitchellmcm27/sandbox-extension-exercise/main?labpath=model-run-1.ipynb](https://mybinder.org/v2/gh/mitchellmcm27/sandbox-extension-exercise/main?labpath=model-run-1.ipynb)
 
 (Make sure to leave this window or tab open as we continue the worksheet.)
 
