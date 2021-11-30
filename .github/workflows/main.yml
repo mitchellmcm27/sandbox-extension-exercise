@@ -19,6 +19,8 @@ jobs:
           tlmgr install cleveref siunitx
       - run: |
           pandoc --standalone --output=worksheet.docx README.md -F pandoc-crossref --citeproc
+      - run: |
+          git add worksheet.docx && git commit -m "update worksheet" && git fetch origin main && git push origin main
       - uses: actions/upload-artifact@master
         with:
           name: worksheet
