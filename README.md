@@ -28,14 +28,16 @@ To distinguish your prediction from the initial layer setup, use any color other
 
 **Q1.** Use the export button ![Export button](images/export.PNG) in the upper-left corner of the screen to export an image of your sketch. Paste the image below.
 
-<br></br>
+<br>
+
 (*put your image here*)
-<br></br>
+
+<br>
 
 **Q2.** How specifically is extension imposed in the model?
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### 2. Follow along in the `model-run-1` notebook using JupyterLab (20 minutes)
 
@@ -49,24 +51,24 @@ Click here to launch an interactive notebook of the model: [![Binder](https://my
 
 **Q3.** Study the images showing the results of running this experiment on different modelling platforms. What are the main differences? Is there a model that more closely agrees with how you would expect a physical sandbox to behave (and could be considered "better" in that way)? Is there anything that all of the models get wrong (if so, what is it and why is it wrong)?
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br>
+<br>
+<br>
+<br>
 
 **Q4.** We assigned two distinct mechanisms to the "sand1" and "sand2" layers to control how they deform. What are the two mechanisms? How do they differ? Why is it beneficial to use this approach in these types of experiments?
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br>
+<br>
+<br>
+<br>
 
 **Q5.** In the next section, you will edit the code to try to improve the model result. What is your goal here (what aspect of the result do you want to improve upon)? What will you change in the code to try to achieve this goal? (Your answer here can be general, specific, or somewhere in-between.)
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br>
+<br>
+<br>
+<br>
 
 ### 3. Edit and run the model again in the `model-run-2` notebook (30 minutes)
 
@@ -85,10 +87,10 @@ If you changed the code in a way that requires more computation, you may want to
 
 **Q6.** What happened in terms of the model? Did it run to completion? How long did it take? Did you achieve your goal? What would you change in a hypothetical third run?
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br>
+<br>
+<br>
+<br>
 
 ## Further reading (not required)
 
