@@ -1,10 +1,5 @@
 name: CI
-
-on:
-  push:
-    paths:
-      - 'README.md'
-
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,11 +11,6 @@ jobs:
           tlmgr install cleveref siunitx
       - run: |
           pandoc --standalone --output=worksheet.docx README.md -F pandoc-crossref --citeproc
-      - uses: EndBug/add-and-commit@v7
-        with:
-          add: 'worksheet.docx'
-          message: 'update worksheet'
-          push: true
       - uses: actions/upload-artifact@master
         with:
           name: worksheet
