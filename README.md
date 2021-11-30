@@ -39,7 +39,7 @@ To distinguish your prediction from the initial layer setup, use any color other
 <br>
 <br>
 
-### 2. Follow along in the `model-run-1` notebook using JupyterLab (20 minutes)
+### 2. Explore `model-run-1` notebook using JupyterLab (20 minutes)
 
 Next we'll step through the sandbox extension model together, using a geodynamic modelling platform called Underworld.
 Follow along with the text and blocks of code that run the model. 
@@ -70,7 +70,7 @@ Click here to launch an interactive notebook of the model: [![Binder](https://my
 <br>
 <br>
 
-### 3. Edit and run the model again in the `model-run-2` notebook (30 minutes)
+### 3. The `model-run-2` notebook (30 minutes)
 
 Finally, we'll change some of the parameters of our model in a controlled way and investigate what happens.
 Within JupyterLab, open the `model-run-2`notebook and read the introduction.
