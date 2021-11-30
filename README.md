@@ -1,32 +1,27 @@
 # Modelling exercise: Sandbox extension
 
 We will explore a numerical model of horizontal extension.
-Horizontal extension occurs when the maximum compressive stess (<img src="https://render.githubusercontent.com/render/math?math=\sigma_1">) is vertical, producing normal faults and, in extreme cases, continental rifts.
+Horizontal extension occurs when the maximum compressive stess is vertical, producing normal faults and, in extreme cases, continental rifts.
 
-Instead of modelling a portion of Earth's lithosphere, however, this model is set up to simulate a 20 cm sandbox.
-So instead of filling the "box" with layers of rock such as granite, we will fill it with a material that approximates the behaviour of sand.
-This particular setup is useful for testing numerical models, because physical sandbox experiments are relatively common and offer a sort of "ground truth" to how the models should perform.
+Instead of modelling a portion of Earth's lithosphere, this model is set up to simulate a 20 cm sandbox.
+This particular setup is useful for testing numerical models, because physical sandbox experiments offer a sort of "ground truth" to evaluate how the model performs.
 Theoretically, models should be able to reproduce the outcomes of these physical sandbox experiments, but as we'll see, many complications usually prevent the models from doing so.
 
 ## Instructions
 
-The exercise consists of three parts. First, we'll study the setup of the model, including the layers of materials and how extension is performed. You will be asked to sketch your prediction for how you think the model will evolve after a period of time. Next, we will walk through an actual run of the model. You will evaluate the outcome of the model to see if the result matches your predictions. You will also compare this run to a similar experiment in several other geodynamic models. Finally, you'll be able to edit the code for the model and re-run it.
+The exercise consists of three parts. First, we'll study the setup of the model, including the layers of materials and how extension is performed. You will be asked to sketch your prediction for how you think the model will evolve after a period of time. Next, we will walk through an actual run of the model. You will evaluate the outcome of the model to see if the result matches your predictions. You will also compare this run to similar experiments in several other geodynamic models. Finally, you'll be able to edit the code for the model and re-run it.
 
 ### 1. Investigate the experimental setup (10 minutes)
 
 Click the link below to view an illustration of the model setup.
-The 2-D sandbox is bounded on the left by a fixed wall.
-The wall on the right is pulled to the rate at a consant rate, effectively lengthening the box.
-A silicone pad at the bottom of the box transfers stretching into the overlying layers of sand, causing extension.
-The sand is what we're interested in, because we're assuming that something about how sand behaves in the sandbox is analagous to how rocks behave in the Earth.
 
-[Study the setup and sketch on top of it here.](https://excalidraw.com/#json=1nhk_6DSeKE2Rs99QkH5h,f5kHcIopHAbAOZt-K8kIMg)
+[Study the setup, and sketch on top of it on Excalidraw.](https://excalidraw.com/#json=Ug1j9KERkYbmhZVqt4SKv,I3anWk7rZoWaQZFGUSSPkg)
 
-Using the link above, sketch what you think will happen after extension of a few centimetres has occurred.
+**Q1.** Using Excalidraw (or any other program), sketch what you think will happen after extension of a few centimetres has occurred.
+Sketch directly on top of the provided image.
 Your sketch can include things like faults, folds, layer contacts, and topography. 
 To distinguish your prediction from the initial layer setup, use any color other than black. 
-
-**Q1.** Use the export button ![Export button](images/export.PNG) in the upper-left corner of the screen to export an image of your sketch. Paste the image below.
+Use the export button ![Export button](images/export.PNG) in the upper-left corner of Excalidraw to save an image of your sketch. Paste the image below.
 
 <br>
 
@@ -34,8 +29,9 @@ To distinguish your prediction from the initial layer setup, use any color other
 
 <br>
 
-**Q2.** How is extension imposed in the model?
+**Q2.** How is extension imposed in the model? Is this an *initial condition* or *boundary condition*?
 
+<br>
 <br>
 <br>
 
@@ -46,17 +42,20 @@ Follow along with the text and blocks of code that run the model.
 Feel free to ask questions. 
 After we step through the code, answer the questions below.
 
-Click here to launch an interactive notebook of the model: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
+**Click here to launch an interactive notebook of the model**:
+<br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mitchellmcm27/test/main?labpath=model-run-1.ipynb)
 
+(Make sure to leave this window or tab open as we continue the worksheet.)
 
-**Q3.** Study the images showing the results of running this experiment on different modelling platforms. What are the main differences? Is there a model that more closely agrees with how you would expect a physical sandbox to behave (and could be considered "better" in that way)? Is there anything that all of the models get wrong (if so, what is it and why is it wrong)?
+**Q3.** Study the images showing the results of running this experiment on different modelling platforms. What are the main differences? Is there a model that more closely agrees with how you would expect a sandbox to behave (and could be considered "better" in that way)? Is there anything that all of the models get wrong (if so, what is it and why is it wrong)?
 
 <br>
 <br>
 <br>
 <br>
 
-**Q4.** We assigned two distinct mechanisms to the "sand1" and "sand2" layers to control how they deform. What are the two mechanisms? How do they differ? Why is it beneficial to use this approach in these types of experiments?
+**Q4.** We assigned two distinct mechanisms to the "sand1" and "sand2" layers to control how they deform. What are the two mechanisms? How do they differ? Why is it beneficial to use such an approach in this experiment?
 
 <br>
 <br>
@@ -73,7 +72,7 @@ Click here to launch an interactive notebook of the model: [![Binder](https://my
 ### 3. The `model-run-2` notebook (30 minutes)
 
 Finally, we'll change some of the parameters of our model in a controlled way and investigate what happens.
-Within JupyterLab, open the `model-run-2`notebook and read the introduction.
+Back in JupyterLab, open the `model-run-2`notebook and read the introduction.
 Some of the explanations within the code have been removed from this notebook. 
 If you need to refer to them, look back at the `model-run-1` notebook.
 
