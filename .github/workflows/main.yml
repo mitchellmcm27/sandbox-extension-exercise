@@ -2,11 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  workflow_dispatch:
+    paths:
+      - 'README.md'
 
 jobs:
   build:
@@ -19,8 +16,11 @@ jobs:
           tlmgr install cleveref siunitx
       - run: |
           pandoc --standalone --output=worksheet.docx README.md -F pandoc-crossref --citeproc
-      - run: |
-          git add worksheet.docx && git commit -m "update worksheet" && git fetch origin main && git push origin main
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: 'worksheet.docx'
+          message: 'update worksheet'
+          push: true
       - uses: actions/upload-artifact@master
         with:
           name: worksheet
