@@ -34,7 +34,7 @@ To distinguish your prediction from the initial layer setup, use any color other
 
 <br>
 
-**Q2.** How specifically is extension imposed in the model?
+**Q2.** How is extension imposed in the model?
 
 <br>
 <br>
