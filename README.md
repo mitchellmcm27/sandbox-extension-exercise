@@ -95,5 +95,6 @@ If you changed the code in a way that requires more computation, you may want to
 
 ## Further reading (not required)
 
-For an in-depth discussion of these types of models and a comparison to actual sandbox experiments, see the [Buiter et al. (2006) paper](Buiter-2006.pdf).
+For an in-depth discussion of these types of models and a comparison to actual sandbox experiments, see the [Buiter et al. (2006) paper](https://github.com/mitchellmcm27/sandbox-extension-exercise/raw/main/Buiter-2006.pdf).
+
 Back in JupyterLab, you can open the `mitchell` folder and see the output from my `model-run-2`, where I increased the mesh resolution and decreased the number of particles per cell.
